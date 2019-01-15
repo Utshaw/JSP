@@ -4,6 +4,7 @@
     Author     : utshaw
 --%>
 <%@page import="java.util.Date" %>
+<%@page import="java.lang.String" %>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -20,6 +21,9 @@
         
    
         <p>Today's date is: <%=date %> </p>
+        <p>Converting a string to uppercase: <%= new String("Farhan Utshaw").toUpperCase() %></p>
+        <p>25 multiplied by 4 is : <%= 25*4 %></p>
+        <p>Is 75 less than 5 : <%= 75 < 6 %></p>
         
         
         
