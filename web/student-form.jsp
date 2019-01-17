@@ -20,6 +20,38 @@
             Last name:  <input type="text" name="lastName">
             <br/><br/>
             
+            <select name="country">
+                <option>Bangladesh</option>
+                <option>USA</option>
+                <option>UAE</option>
+            </select>
+            
+            <br/>
+            
+            Select favorite language:
+            
+            <input type="radio" name="favoriteLanguage" value="Java"> Java
+            
+            <input type="radio" name="favoriteLanguage" value="C#"> C#
+            
+            <input type="radio" name="favoriteLanguage" value="PHP"> PHP
+            
+            <input type="radio" name="favoriteLanguage" value="Ruby"> Ruby
+            
+            <br/>
+            
+            
+            Select favorite fruit:
+            
+            <input type="checkbox" name="favoriteFruit" value="Mango"> Mango
+            
+            <input type="checkbox" name="favoriteFruit" value="PineApple"> PineApple
+            
+            <input type="checkbox" name="favoriteFruit" value="Apple"> Apple
+            
+            <input type="checkbox" name="favoriteFruit" value="Jackfruit"> Jackfruit
+            
+            <br/>
             <input type="submit" value="Submit">
         </form>
         

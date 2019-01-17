@@ -12,6 +12,20 @@
         <title>JSP Student confirmation</title>
     </head>
     <body>
-        The student is confirmed : ${param.firstName}  ${param.lastName}
+        The student is confirmed : ${param.firstName}  ${param.lastName} <br/>
+        The student's selected country: ${param.country} <br/>
+        The student's favorite language: ${param.favoriteLanguage}<br/>
+        
+        
+        <ul>
+            <%
+                String[] fruits  = request.getParameterValues("favoriteFruit");
+                for(String aFruit : fruits){
+                    out.println("<li>" + aFruit + "</li>");
+                }
+            
+            
+            %>
+        </ul>
     </body>
 </html>
